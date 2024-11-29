@@ -11,7 +11,7 @@ def control_relay(pin, state):
 
 # Contoh penggunaan
 while True:
-    control_relay(17, GPIO.HIGH)  # Nyalakan relay
+    control_relay(16, GPIO.HIGH)  # Nyalakan relay
     time.sleep(1)
-    control_relay(17, GPIO.LOW)  # Matikan relay
+    control_relay(16, GPIO.LOW)  # Matikan relay
     time.sleep(1)
