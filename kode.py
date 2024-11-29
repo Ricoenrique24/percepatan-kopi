@@ -3,7 +3,7 @@ import time
 
 # Konfigurasi pin GPIO
 GPIO.setmode(GPIO.BCM)
-GPIO.setup(17, GPIO.output)
+GPIO.setup(17, GPIO.OUT)
 
 # Contoh penggunaan
 while True:
