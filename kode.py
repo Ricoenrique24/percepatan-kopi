@@ -3,7 +3,7 @@ import time
 
 # Konfigurasi pin GPIO
 GPIO.setmode(GPIO.BCM)
-GPIO.setup(17, GPIO.OUT)
+GPIO.setup(16, GPIO.OUT)
 
 # Fungsi untuk mengontrol relay
 def control_relay(pin, state):
